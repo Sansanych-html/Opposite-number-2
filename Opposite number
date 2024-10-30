@@ -1,17 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-class OppositeTest extends TestCase {
-    public function testThatOppositeWorksForExamplesProvidedInDescription() {
-      $this->assertSame(-1, opposite(1));
-      $this->assertSame(-14, opposite(14));
-      $this->assertSame(34, opposite(-34));
-    }
-  }
-
-  function opposite($n) {
-    return -$n;// Your code here
-  }
-  
-</body>
+<html>
+    <head>
+        <title>Тестуємо PHP</title>
+    </head>
+    <body>
+        <?php echo '<p>Привіт, Світ</p>'; ?> 
+    </body>
 </html>
